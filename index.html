@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Guess Game</title>
+  <!-- bootstrap cdn-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+      <div class="jumbotron">
+            <h1>OMG !! Hangman Game</h1>
+            <p>Guess the student from our class</p> 
+      </div>
+      
+      
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">word to guess</h3>
+          </div>
+          <br>
+          <div class="panel-body">
+            <h2> _ _ _ _ _ _ _ _</h2>
+          </div>
+      </div>
+      <br>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+           Wrong Guesses: <span id="WrongGuesses"></span>
+        </div>
+      </div>
+      <br>
+
+      <div class="panel panel-default">
+        <div class="panel-body">
+           Guesses Left: <span id="numGuesses">9</span>
+        </div>
+      </div>
+      <br>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+           Win Counter: <span id="winCounter">0</span>
+        </div>
+      </div>
+      <br>
+      
+      <div class="panel panel-default">
+        <div class="panel-body">
+           Loss Counter: <span id="LossCounter">0</span>
+        </div>
+      </div>
+
+      <!-- link to javascript-->
+      <script src="assets/javascript/game.js"></script>
+      
+      
+      
+      
+
+    </div>
+</body>
+</html>
