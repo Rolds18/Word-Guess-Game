@@ -1,7 +1,7 @@
 //global Variables
 //==========================================================
 // Arrays and variables for holding data
-var wordOptions = [ "lance", "neena", "darion", "adam", "jerome", "lou", "greg"];
+var wordOptions = [ "apple", "banana", "kiwi", "orange", "strawberry", "starfruit", "grape"];
 // these need to be in lowercase because we'll be registering lowercase clicks
 var selectedWord = "";
 var LettersInWord = [];
